@@ -1,0 +1,51 @@
+/* ============================
+   LIGHT THEME (Professional Minimalist)
+   ============================ */
+   :root {
+    /* Core */
+    --color-bg: #FFFFFF;
+    --color-bg-alt: #F6F7F9;
+    --color-surface: #FFFFFF;
+    --color-border: #E5E7EB;
+    --color-text: #111827;
+    --color-text-secondary: #4B5563;
+  
+    /* Accent (Elegant Blue) */
+    --color-accent: #2563EB;        /* Primary button, links */
+    --color-accent-hover: #1E40AF;  /* Hover / active */
+    --color-accent-light: #E0E7FF;  /* Soft backgrounds / highlights */
+  
+    /* Success / Warning / Error */
+    --color-success: #15803D;
+    --color-warning: #D97706;
+    --color-error: #B91C1C;
+  
+    /* Interactive states */
+    --color-hover-bg: #F3F4F6;
+    --color-active-bg: #E5E7EB;
+    --color-input-bg: #FFFFFF;
+    --color-input-border: #D1D5DB;
+    --color-input-focus: #2563EB;
+  
+    /* Shadows & Overlays */
+    --color-shadow: rgba(0, 0, 0, 0.05);
+    --color-overlay: rgba(0, 0, 0, 0.4);
+  
+    /* Typography */
+    --font-primary: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    --font-monospace: 'JetBrains Mono', monospace;
+  
+    /* Code blocks / syntax */
+    --color-code-bg: #F3F4F6;
+    --color-code-text: #1F2937;
+  
+    /* Buttons */
+    --button-bg: var(--color-accent);
+    --button-bg-hover: var(--color-accent-hover);
+    --button-text: #FFFFFF;
+  
+    /* Links */
+    --link-color: var(--color-accent);
+    --link-hover: var(--color-accent-hover);
+  }
+  

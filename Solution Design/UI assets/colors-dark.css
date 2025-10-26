@@ -1,0 +1,51 @@
+/* ============================
+   DARK THEME (Executive Noir)
+   ============================ */
+   [data-theme="dark"] {
+    /* Core */
+    --color-bg: #0F1115;
+    --color-bg-alt: #16181D;
+    --color-surface: #1C1E24;
+    --color-border: #2A2D33;
+    --color-text: #F3F4F6;
+    --color-text-secondary: #9CA3AF;
+  
+    /* Accent (Elegant Blue) */
+    --color-accent: #3B82F6;
+    --color-accent-hover: #60A5FA;
+    --color-accent-light: #1E3A8A;
+  
+    /* Success / Warning / Error */
+    --color-success: #22C55E;
+    --color-warning: #EAB308;
+    --color-error: #EF4444;
+  
+    /* Interactive states */
+    --color-hover-bg: #1E1F25;
+    --color-active-bg: #2A2D33;
+    --color-input-bg: #111317;
+    --color-input-border: #3F3F46;
+    --color-input-focus: #3B82F6;
+  
+    /* Shadows & Overlays */
+    --color-shadow: rgba(0, 0, 0, 0.3);
+    --color-overlay: rgba(255, 255, 255, 0.05);
+  
+    /* Typography */
+    --font-primary: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    --font-monospace: 'JetBrains Mono', monospace;
+  
+    /* Code blocks / syntax */
+    --color-code-bg: #1E1F25;
+    --color-code-text: #E5E7EB;
+  
+    /* Buttons */
+    --button-bg: var(--color-accent);
+    --button-bg-hover: var(--color-accent-hover);
+    --button-text: #FFFFFF;
+  
+    /* Links */
+    --link-color: var(--color-accent);
+    --link-hover: var(--color-accent-hover);
+  }
+  
